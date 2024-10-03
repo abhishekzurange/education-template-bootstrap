@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 800px;
+    background-image: url(images/background/hero-img-1-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    background-color: rgba(0, 0, 255, 0.534);
+}
+.head-1{
+    height: 160px;
+}
+.head-2{
+    height: 30px;
+}
+.header-3{
+    width: 90%;
+    margin: 0 auto;
+}
+.top{
+    margin-top: 30px;
+    height: 900px;
+}
+.top-1{
+    background-color: #dda3a3;
+}
+.top-1:hover{
+    background-color: red;
+}
+.teacher{
+    height: 700px;
+}
+.teacher-1{
+    height: 350px;
+    width: 90%;
+    margin: 0 auto;
+}
+.p{
+    font-size: x-large;
+}
+.text{
+    margin-top: 40px;
+    height: 200px;
+}
+.class{
+    height: 1200px;
+}
+.class-2 p{
+    width: 80%;
+    margin: 0 auto;
+}
+.course{
+    margin-top: 40px;
+    height: 1900px;
+    background-color: #aca5a557;
+}
+.course-1{
+    height: 300px;
+}
+.bg1{
+    background-color: white;
+}
+.rw{
+    height: 1600px;
+}
+.lead{
+    height: 550px;
+    background-image: url(images/background/hero-img-1-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    height: 770px;
+}
+.about-2{
+    width: 90%;
+    height: 250px;
+}
+.about-1{
+    background-color: rgba(135, 207, 235, 0.445);
+    height: 250px;
+    width: 70%;
+    margin:  20px 0px 0px -200px;
+    z-index: -1;
+}
+.news{
+    height: 1300px;
+    background-color: rgba(135, 207, 235, 0.089);
+}
+.news-1{
+    width: 100%;
+    height: 500px;
+}
+.news-2{
+    width: 100%;
+}
+.pricing{
+    height: 1300px;
+}
+.price-1{
+    border: 1px solid silver;
+    border-radius: 2%;
+}
+.small{
+    font-size: small;
+}
+.testi{
+    height: 650px;
+}
+.test{
+    height: 600px;
+}
+.testi-2{
+    width: 70%;
+    margin: 0 auto;
+}
+.testi-3{
+    width: 50%;
+    margin: 0 auto;
+}
+.footer{
+    height: 1000px;
+    background-color: rgba(0, 0, 255, 0.692);
+}
+@media(min-width:768px){
+    .top{
+        height: 500px;
+    }
+    .teacher{
+        height: 1100px;
+    }
+    .teacher-1{
+        height: 850px;
+    }
+    .class{
+        height: 700px;
+    }
+    .course{
+        height: 1300px;
+    }
+    .rw{
+        height: 1100px;
+    }
+    .about{
+        height: 900px;
+    }
+
+    .about-2{
+        width: 90%;
+    }
+    .abs{
+        height: 850px;
+    }
+    .about-2{
+        width: 90%;
+        height: 400px;
+    }
+    .about-1{
+        height: 300px;
+        width: 50%;
+    }
+    .news{
+        height: 860px;
+    }
+    .news-1{
+        width: 60%;
+        height: 300px;
+    }
+    .pricing{
+        height: 900px;
+    }
+    .testi{
+        height: 650px;
+    }
+    .test{
+        height: 600px;
+    }
+    .testi-2{
+        width: 70%;
+    }
+    .testi-3{
+        width: 30%;
+    }
+    .footer{
+        height: 1300px;
+    }
+    .ft{
+        width: 60%;
+    }
+}
+@media(min-width:1199px){
+    .header-3{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .header{
+        height: 700px;
+    }
+    .top{
+        margin-top: 60px;
+        height: 400px;
+    }
+    .teacher{
+        height: 800px;
+        z-index: -1;
+    }
+    .teacher-1{
+        height: 650px;
+    }
+    .teacher-2{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .text-1{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .class{
+        height: 550px;
+    }
+    .course{
+        height: 800px;
+    }
+    .rw{
+        height: 600px;
+    }
+    .about{
+        height: 600px;
+    }
+    .abs{
+        height: 580px;
+    }
+    .about-2{
+        width: 90%;
+        height: 300px;
+    }
+    .about-1{
+        height: 300px;
+        width: 60%;
+    }
+    .news{
+        height: 600px;
+    }
+    .news-1{
+        width: 60%;
+        height: 300px;
+    }
+    .pricing{
+        height: 650px;
+    }
+    .testi{
+        height: 450px;
+    }
+    .test{
+        height: 400px;
+    }
+    .testi-2{
+        width: 50%;
+    }
+    .testi-3{
+        width: 20%;
+    }
+    .footer{
+        height: 400px;
+    }
+    .ft{
+        width: 100%;
+    }
+}
